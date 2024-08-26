@@ -48,10 +48,10 @@ jobs:
     #  run: gradle build
       
     - name: Compile
-      run: gradle compile
+      run: gradle compileJava
 
     - name: Test
-      run: gradle test
+      run: gradle compileTestJava
 
   dependency-submission:
 
